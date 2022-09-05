@@ -13,8 +13,8 @@ https://dev.to/zeeshanhshaheen/design-patterns-in-javascript-1pgm
 - prototype: Ter uma função que retorna uma instancia da propria classe
 - singleton: usar a mesma instancia de objeto para tudo
 
-### PATTERNS DE CRIAÇÃO DE ESTRUTURA
+### PATTERNS DE CRIAÇÃO DE ESTRUTURA DE HERANÇA
 
-ajudam a criar objetos, invez de instanciar eles.
-
-- 
+- adapter: ajuda a relacionar classes com a interface nao compativel
+- bridge: separa a abstração da implementação
+- composite: executa diversas instancias de objeto em uma classe so
