@@ -1,16 +1,12 @@
-CoordinateSystem = {
-    CARTESIAN: 0,
-    POLAR: 1,
-};
+/**
+ * Basicamente tem uma classe que tem metodos que instanciam
+ * as outras classes.
+ */
 
 class Point {
     constructor(x, y) {
         this.x = x;
         this.y = y;
-    }
-
-    static get factory() {
-        return new PointFactory();
     }
 }
 
