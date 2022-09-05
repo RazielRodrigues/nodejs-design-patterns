@@ -1,6 +1,7 @@
 /**
  * Basicamente voce passa instancias de objetos
- * para uma classe e executa essas instancias em um for
+ * para uma classe e deixa um metodo com um for que
+ * executa metodos dessas instancias passadas
  */
 
 class Employer {
