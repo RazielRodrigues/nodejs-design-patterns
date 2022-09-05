@@ -17,4 +17,6 @@ https://dev.to/zeeshanhshaheen/design-patterns-in-javascript-1pgm
 
 - adapter: ajuda a relacionar classes com a interface nao compativel
 - bridge: separa a abstração da implementação
-- composite: executa diversas instancias de objeto em uma classe so
+- composite: executa diversas instancias de objeto em uma classe só
+- decorator: ajuda a adicionar comportamentos na classe sem ter que mexer nas outras que dependem da principal
+- 
