@@ -21,3 +21,13 @@ https://dev.to/zeeshanhshaheen/design-patterns-in-javascript-1pgm
 - decorator: ajuda a adicionar comportamentos na classe sem ter que mexer nas outras que dependem da principal
 - facade: descomplicar a execução de metodos
 - flyweight: diminui o consumo de memoria criando recriando objetos similares
+- proxy: uma classe pode representar a funcionalidade de outra
+
+### PATTERNS DE CRIAÇÃO DE COMUNICAÇÃO DE OBJETOS
+
+- chain of responsibility: ...
+- command: executa metodos de uma classe como um menu
+- iterator: ...
+- mediator: salva diversos objetos em um array da classe mediadora e executa metodos dos objetos
+- memento: retorna um objeto a um estado antigo
+- observer: 
