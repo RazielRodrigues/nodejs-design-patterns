@@ -1,5 +1,5 @@
 /**
- * Cria elementos similares...
+ * ...
  */
 
 class User {

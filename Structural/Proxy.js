@@ -1,5 +1,5 @@
 /**
- * Uma classe pode representar a funcionalidade de outra
+ * ...
  */
 
 class Percentage {
