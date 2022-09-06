@@ -30,4 +30,8 @@ https://dev.to/zeeshanhshaheen/design-patterns-in-javascript-1pgm
 - iterator: ...
 - mediator: salva diversos objetos em um array da classe mediadora e executa metodos dos objetos
 - memento: retorna um objeto a um estado antigo
-- observer: 
+- observer: salva/retira diversos objetos em um array da classe mediadora e executa metodos dos objetos
+- visitor: adiciona uma funcionalidade visitante na classe ou seja sem modificar a classe de verdade
+- strategy: da a possibilidade de escolhermos uma classe de acordo com a situação
+- state: a ideia é alterar estados de uma propriedade com classe que representem estados
+- template: classe abstrata que contém metodos que serão usados em diversos objetos

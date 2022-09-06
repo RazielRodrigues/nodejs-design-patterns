@@ -1,5 +1,7 @@
 /**
- * Basicamente
+ * Basicamente temos uma classe que tem a possibilidade
+ * de retirar e adicionar objetos dentro de um array da classe observer
+ * assim executando os metodos da classe passada ao observer
  */
 
 class Event {
