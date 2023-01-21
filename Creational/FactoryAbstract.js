@@ -13,37 +13,37 @@ class Drink {
 
 class Tea extends Drink {
   consume() {
-    console.log('This is Tea');
+    return 'This is Tea';
   }
 }
 
 class Coffee extends Drink {
   consume() {
-    console.log(`This is Coffee`);
+    return `This is Coffee`;
   }
 }
 
 class DrinkFactory {
   prepare(amount) {
-    console.log(`preparing ${amount}`);
+    return `preparing ${amount}`;
   }
 }
 
 class TeaFactory extends DrinkFactory {
   makeTea() {
-    console.log(`Tea Created`);
     return new Tea();
   }
 }
 
 class CoffeeFactory extends DrinkFactory {
   makeCoffee() {
-    console.log(`Coffee Created`);
     return new Coffee();
   }
 }
 
-let teaDrinkFactory = new TeaFactory();
-let tea = teaDrinkFactory.makeTea()
-tea.consume()
-teaDrinkFactory.prepare(12) 
+module.exports = {
+  TeaFactory,
+  CoffeeFactory,
+  Tea,
+  Coffee
+}

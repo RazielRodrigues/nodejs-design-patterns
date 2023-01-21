@@ -8,7 +8,7 @@
  * que os outros builder consigam modificar a classe principal
  * e no fim das contas monte um objeto de uma classe
  * baseando em outras abstrações, mas precisa abstrair bem
- * a classe principal primeiro, senãoos builder não irão
+ * a classe principal primeiro, senão os builder não irão
  * fazer sentido.
  */
 

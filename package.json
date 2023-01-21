@@ -1,0 +1,29 @@
+{
+  "name": "node-patterns",
+  "version": "1.0.0",
+  "description": "Estudos sobre patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RazielMiranda/node-patterns.git"
+  },
+  "keywords": [
+    "raziel",
+    "node",
+    "patterns"
+  ],
+  "author": "Raziel Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RazielMiranda/node-patterns/issues"
+  },
+  "homepage": "https://github.com/RazielMiranda/node-patterns#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "sinon": "^15.0.1"
+  }
+}
