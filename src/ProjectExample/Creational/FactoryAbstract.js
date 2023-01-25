@@ -7,43 +7,36 @@
  * usar o extends em uma factory para criar algo sem saber a classe factory principal
  */
 
-class Drink {
+export class Drink {
   consume() { }
 }
 
-class Tea extends Drink {
+export class Tea extends Drink {
   consume() {
     return 'This is Tea';
   }
 }
 
-class Coffee extends Drink {
+export class Coffee extends Drink {
   consume() {
     return `This is Coffee`;
   }
 }
 
-class DrinkFactory {
+export class DrinkFactory {
   prepare(amount) {
     return `preparing ${amount}`;
   }
 }
 
-class TeaFactory extends DrinkFactory {
+export class TeaFactory extends DrinkFactory {
   makeTea() {
     return new Tea();
   }
 }
 
-class CoffeeFactory extends DrinkFactory {
+export class CoffeeFactory extends DrinkFactory {
   makeCoffee() {
     return new Coffee();
   }
-}
-
-module.exports = {
-  TeaFactory,
-  CoffeeFactory,
-  Tea,
-  Coffee
 }

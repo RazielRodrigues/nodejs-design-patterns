@@ -1,5 +1,5 @@
-const { expect } = require('chai')
-const { TeaFactory, CoffeeFactory, Tea, Coffee } = require('../../Creational/FactoryAbstract');
+import { expect } from 'chai';
+import { TeaFactory, CoffeeFactory, Tea, Coffee } from '../../src/ProjectExample/Creational/FactoryAbstract.js';
 
 describe('FactoryAbstract.js', () => {
 

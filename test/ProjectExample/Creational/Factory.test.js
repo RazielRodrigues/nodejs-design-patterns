@@ -1,5 +1,5 @@
-const { expect } = require('chai')
-const { Point, PointFactory } = require('../../Creational/Factory');
+import { expect } from 'chai';
+import { Point, PointFactory } from '../../src/ProjectExample/Creational/Factory.js';
 
 describe('Factory.js', () => {
 

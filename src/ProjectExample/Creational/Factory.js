@@ -6,7 +6,7 @@
  * classes baseada em uma outra.
  */
 
-class Point {
+export class Point {
     constructor(x, y) {
 
         if (!x || !y) {
@@ -18,7 +18,7 @@ class Point {
     }
 }
 
-class PointFactory {
+export class PointFactory {
 
     static newCartesianPoint(x, y) {
         return new Point(x, y);
@@ -27,9 +27,4 @@ class PointFactory {
     static newPolarPoint(rho, theta) {
         return new Point(rho * Math.cos(theta), rho * Math.sin(theta));
     }
-}
-
-module.exports = {
-    Point,
-    PointFactory
 }
