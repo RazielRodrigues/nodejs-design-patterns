@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { TeaFactory, CoffeeFactory, Tea, Coffee } from '../../src/ProjectExample/Creational/FactoryAbstract.js';
+import { TeaFactory, CoffeeFactory, Tea, Coffee } from '../../../src/ProjectExample/Creational/FactoryAbstract.js';
 
 describe('FactoryAbstract.js', () => {
 

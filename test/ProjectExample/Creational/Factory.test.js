@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { Point, PointFactory } from '../../src/ProjectExample/Creational/Factory.js';
+import { Point, PointFactory } from '../../../src/ProjectExample/Creational/Factory.js';
 
 describe('Factory.js', () => {
 
