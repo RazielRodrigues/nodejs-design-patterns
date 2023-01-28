@@ -18,7 +18,7 @@ Design patterns são soluções recorrentes para problemas comuns encontrados na
 - Flyweight: Uma classe que compartilha objetos comuns entre várias instâncias, a fim de economizar recursos.
 - Proxy: Uma classe que representa outra classe
 
-### PATTERNS DE CRIAÇÃO DE COMUNICAÇÃO DE OBJETOS
+## PATTERNS DE CRIAÇÃO DE COMUNICAÇÃO DE OBJETOS
 
 - Chain of Responsibility: permite que vários objetos trabalhem em conjunto para processar uma solicitação.
 - Command: executa métodos de uma classe como um menu.
