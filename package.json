@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha --recursive ./test/"
+    "test": "mocha --recursive ./test/",
+    "test:report": "c8 --reporter=text mocha --recursive ./test/",
+    "test:html": "c8 --reporter=html mocha --recursive ./test/"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
   },
   "homepage": "https://github.com/RazielMiranda/node-patterns#readme",
   "dependencies": {
+    "c8": "^7.12.0",
     "chai": "^4.3.7",
     "mocha": "^10.2.0",
     "sinon": "^15.0.1"

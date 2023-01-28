@@ -2,7 +2,7 @@ import LuzSingleton from '../../../../src/PersonalExample/Creational/Singleton/L
 
 import { expect } from 'chai';
 
-describe.only('LuzSingleton', () => {
+describe('LuzSingleton', () => {
 
     it("Deve instanciar um objeto unico", () => {
         const luzSingletonSala = new LuzSingleton()
