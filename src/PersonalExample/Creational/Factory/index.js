@@ -1,11 +1,7 @@
 /**
- * Nesse exemplo eu estou usando uma factory de ninjas
- * de forma que essa factory possa ser usada para gerar
- * vários tipos de ninjas que vão seguir um comportamento
- * determinado pela interface, isso se chama de fábrica abstrata
- * aonde queremos padronizar a saida dos nossos objetos
- * mas também fornecer a flexibilidade do que escolher
- * sendo estudo de caso de um jogo por exemplo.
+O design pattern factory é um padrão de projeto criacional que fornece uma maneira de instanciar objetos sem especificar a classe concreta que deve ser utilizada. Isso é conseguido através de uma fábrica abstrata, que é uma classe ou interface responsável por criar objetos de acordo com o tipo especificado.
+
+No exemplo dado, uma fábrica de ninjas é utilizada para gerar diferentes tipos de ninjas que seguem um comportamento determinado pela interface. Isso permite que a fábrica padronize a saída dos objetos, mas também forneça flexibilidade na escolha dos objetos. Isso é útil em casos de estudo, como em um jogo, onde diferentes tipos de personagens podem ser criados de acordo com as necessidades do jogo.
  */
 
 import NinjaFactory from './NinjaFactory.js';
