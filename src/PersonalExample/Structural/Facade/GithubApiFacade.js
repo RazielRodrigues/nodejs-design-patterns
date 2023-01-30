@@ -30,12 +30,7 @@ export class GithubApiFacade {
 
     async callAPI() {
         const response = await this.request.getResponse();
-        console.log(response)
-
-        // for (const data of response) {
-        //     console.log(data)
-        // }
-
+        return response;
     }
 
 }

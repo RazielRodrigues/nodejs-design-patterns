@@ -7,11 +7,12 @@ let usuarios = [
 ]
 
 let facade;
-usuarios.forEach((u) => {
+usuarios.forEach(async (u) => {
     facade = new GithubApiFacade(u);
     informacoes.push(
         facade.callAPI()
     );
 })
 
-console.log(informacoes);
+const resposta = await Promise.all(informacoes);
+console.log(resposta);
