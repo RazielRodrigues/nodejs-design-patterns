@@ -30,3 +30,13 @@ Design patterns são soluções recorrentes para problemas comuns encontrados na
 - Strategy: dá a possibilidade de escolhermos uma classe de acordo com a situação.
 - State: a ideia é alterar estados de uma propriedade com classe que representem estados.
 - Template: classe abstrata que contém métodos que serão usados em diversos objetos.
+
+## TOP 7 PATTERNS MAIS USADAS
+
+- Singleton
+- Factory
+- Facade
+- Stategy
+- Observer
+- Builder
+- Adapter
