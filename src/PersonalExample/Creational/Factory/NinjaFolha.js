@@ -12,9 +12,7 @@ export default class NinjaFolha extends NinjaInterface {
     }
 
     falar() {
-        setTimeout(() => {
-            console.log(`Ninja da folha falando: ${this.fala}`);
-        }, 2000);
+        console.log(`Ninja da folha falando: ${this.fala}`);
     }
 
 }

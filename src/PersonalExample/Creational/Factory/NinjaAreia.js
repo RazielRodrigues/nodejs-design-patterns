@@ -12,9 +12,7 @@ export default class NinjaAreia extends NinjaInterface {
     }
 
     falar() {
-        setTimeout(() => {
-            console.log(`Ninja da areia falando: ${this.fala}`);
-        }, 4000);
+        console.log(`Ninja da areia falando: ${this.fala}`);
     }
 
 }
