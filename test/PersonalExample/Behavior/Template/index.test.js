@@ -1,8 +1,8 @@
 import assert from 'assert';
-import { Partitura } from '../../../../src/PersonalExample/Behavior/Template/index.js';
+import { Partitura } from '../../../../src/PersonalExample/Behavior/Template/Partitura.js';
 import sinon from 'sinon';
 
-describe.only("Partitura", () => {
+describe("Partitura", () => {
     describe("tocarMusica", () => {
         it("deve tocar as notas corretamente", async () => {
             // Criar uma instância de Partitura
