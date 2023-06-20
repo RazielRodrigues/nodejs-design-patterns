@@ -11,6 +11,7 @@ describe("Partitura", () => {
             // Espionar tocarMusica
             const tocarMusicaSpy = sinon.spy(Partitura.prototype, "tocarMusica");
 
+
             // Chamar o método tocarMusica
             partitura.tocarMusica(["do", "re", "mi"], 500);
 
