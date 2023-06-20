@@ -22,7 +22,7 @@ const compra = new ComprasBuilder();
 const compras = compra.adicionarProdutos
     .adicionarCarnes('Alcatra', 20)
     .adicionarCarnes('Filé de frango', 20)
-    .adicionarCarnes('Picana', 20)
+    .adicionarCarnes('Picanha', 20)
     .adicionarFrutas('Banana', 20)
     .build()
     .listarCompras()
