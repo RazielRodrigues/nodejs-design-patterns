@@ -1,5 +1,5 @@
 import assert from 'assert';
-import { Partitura } from '../../../../src/PersonalExample/Behavior/Template/Partitura.js';
+import { Partitura } from '../../../../src/PersonalExample/Behavior/Template/index.js';
 import sinon from 'sinon';
 
 describe("Partitura", () => {

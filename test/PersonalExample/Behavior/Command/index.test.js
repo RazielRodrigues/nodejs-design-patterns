@@ -1,7 +1,7 @@
 import assert from 'assert';
 import sinon from 'sinon';
 
-import { TV, LigarTVCommand, DesligarTVCommand, ControleRemoto } from '../../../../src/PersonalExample/Behavior/Command/Controle.js';
+import { TV, LigarTVCommand, DesligarTVCommand, ControleRemoto } from '../../../../src/PersonalExample/Behavior/Command/index.js';
 
 describe('Controle', () => {
     const spy = sinon.spy(TV.prototype, "ligar");

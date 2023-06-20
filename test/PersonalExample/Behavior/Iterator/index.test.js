@@ -1,7 +1,7 @@
 import assert from 'assert';
 import sinon from 'sinon';
 
-import { HttpResponses, Mensagem } from '../../../../src/PersonalExample/Behavior/Iterator/Mensagem.js';
+import { HttpResponses, Mensagem } from '../../../../src/PersonalExample/Behavior/Iterator/index.js';
 
 describe('HttpResponses', () => {
     it('deve adicionar uma resposta corretamente', () => {
