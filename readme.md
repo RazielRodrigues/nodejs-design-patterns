@@ -40,8 +40,3 @@ Design patterns são soluções recorrentes para problemas comuns encontrados na
 - Observer
 - Builder
 - Adapter
-
-
-## PROJECT COVERAGE
-
-![image](https://user-images.githubusercontent.com/40905332/215959029-ee31bdb9-f4e7-47a9-ae47-f60503f2ac47.png)
