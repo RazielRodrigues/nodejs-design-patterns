@@ -1,12 +1,12 @@
 import assert from 'assert';
 import sinon from 'sinon';
 
-import { HttpResponses, mensagem } from '../../../../src/PersonalExample/Behavior/Iterator/index.js';
+import { HttpResponses, Mensagem } from '../../../../src/PersonalExample/Behavior/Iterator/Mensagem.js';
 
-describe.only('HttpResponses', () => {
+describe('HttpResponses', () => {
     it('deve adicionar uma resposta corretamente', () => {
         const http = new HttpResponses();
-        const response = new mensagem('ok', 200);
+        const response = new Mensagem('ok', 200);
         http.addResponse(response);
         assert.deepStrictEqual(http.responses, [response]);
     });

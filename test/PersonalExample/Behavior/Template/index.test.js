@@ -4,6 +4,16 @@ import sinon from 'sinon';
 
 describe("Partitura", () => {
     describe("tocarMusica", () => {
+        const sandbox = sinon.createSandbox();
+
+        beforeEach(() => {
+            sandbox.replace(console, 'log', () => { return '' })
+        })
+
+        afterEach(() => {
+            sandbox.restore()
+        })
+
         it("deve tocar as notas corretamente", async () => {
             // Criar uma instância de Partitura
             const partitura = new Partitura();
