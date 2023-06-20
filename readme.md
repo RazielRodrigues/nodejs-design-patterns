@@ -40,3 +40,9 @@ Design patterns são soluções recorrentes para problemas comuns encontrados na
 - Observer
 - Builder
 - Adapter
+
+
+##### REFERENCE 
+
+- Chat GPT
+- https://dev.to/zeeshanhshaheen/design-patterns-in-javascript-1pgm#iterator
